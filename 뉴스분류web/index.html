@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta authors="조경윤">
+	<title>HOME</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+	<div id="background">
+		<div id="page">
+			<header>
+				<div id="header">
+					<div class="login">
+						<span style="display: inline-block; width: 95%; text-align: right;">
+						<a href="login.html">로그인</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+						<a href="signup.html">회원가입</a></span>
+					</div>
+
+					<div id="logo">
+							<a href="index.html"><img src="images/MainLogo01.png" alt="LOGO01" width="120">
+								<img src="images/MainLogo02.png" alt="LOGO02" width="240"></a>
+					</div>
+					
+					
+
+					<nav>
+						<div id="navigation">
+							<ul>
+								<li class="selected">
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="politics_economy.html">정치/경제</a>
+								</li>
+								<li>
+									<a href="society.html">사회</a>
+								</li>
+								<li>
+									<a href="life_culture.html">생활/문화</a>
+								</li>
+								<li>
+									<a href="it_science.html">IT/과학</a>
+								</li>
+								<li>
+									<a href="sports.html">스포츠</a>
+								</li>
+								<li>
+									<a href="notice.html">소개</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<article>
+				<div id="contents">
+					<div id="adbox">
+						
+						<h1 align="middle" style="font-family:맑은 고딕;"><strong>기사</strong></h1>
+						
+						 <form action="/examples/media/action_target.php" method="get" align="middle">
+							<textarea name="opinion" cols="100" rows="20">분류할 뉴스를 복사하여 붙여넣기를 하세요.</textarea><br>
+							<input type="submit" value="분류 실행">
+						</form>
+						<br><br>
+
+						
+						
+					
+						<p align="middle"><iframe id="iframe_video" src="https://www.youtube.com/embed/0GN8t2u3flc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+						<marquee bgcolor="FFCC99" scrollamount="20"> <strong>뉴스Live</strong>&nbsp;진행중!</marquee>
+					</div>
+
+					<div id="main">
+						<div class="box">
+							<div>
+								<div>
+									<h3>QUICK LINK</h3>
+									<ul>
+										<li>
+											<table>
+												<thead>
+													<tr>
+														
+														<td><a href="https://m.stock.naver.com/domestic/index/KOSPI"><img src="images/QuickLink01.png" alt="퀵메뉴01" height="95"></a></td> 
+														<td><a href="http://store.emart.com/"><img src="images/QuickLink02.png" alt="퀵메뉴02" height="95"></a></td>
+														<td><a href="https://www.ehyundai.com/gate.do"><img src="images/QuickLink03.png" alt="퀵메뉴03" height="95"></a></td> 
+														<td><a href="https://rt.molit.go.kr/"><img src="images/QuickLink04.png" alt="퀵메뉴04" height="95"></a></td>
+													</tr>
+												</thead>
+
+												<tbody>
+													<tr>
+														<td colspan="4" align="center"><small>해당 아이콘을 선택하시면 페이지로 빠르게 이동합니다.</small> </td>
+													</tr>
+												</tbody>
+											</table>
+										</li>
+
+										<li>
+											<h5>광고문의</h5>
+											<p id="current_date">
+											<script>
+												date = new Date();
+												year = date.getFullYear();
+												month = date.getMonth() + 1;
+												day = date.getDate();
+												document.getElementById("current_date").innerHTML = "오늘 날짜는 "+  year+ "년 " + month + "월 " + day + "일 입니다." ;
+												</script>
+												</p>
+											
+      <strong> kkyxxn@gmail.com</strong> 
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<aside>
+						<div id="sidebar">
+							<div class="section">
+								<a href="https://www.kurly.com/shop/main/index.php" target="_blank"><img src="images/advertise01.png" alt="Img" width="270", height="150"></a>
+							</div>
+
+							<div class="section">
+								<a href="https://www.dabangapp.com/" target="_blank"><img src="images/advertise02.jpg" alt="Img" width="270", height="150"></a>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</article>
+		</div>
+
+		<footer>
+			<div id="footer">
+				<div>
+					<ul class="navigation">
+						<li class="active">
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="politics_economy.html">정치/경제</a>
+						</li>
+						<li>
+							<a href="society.html">사회</a>
+						</li>
+						<li>
+							<a href="life_culture.html">생활/문화</a>
+						</li>
+						<li>
+							<a href="it_science.html">IT/과학</a>
+						</li>
+						<li>
+							<a href="sports.html">스포츠</a>
+						</li>
+						<li>
+							<a href="notice.html">게시판</a>
+						</li>
+					</ul>
+					<div id="connect">
+						<a href="http://www.facebook.com/" target="_blank" class="facebook"></a>
+						<a href="http://www.twitter.com/" target="_blank" class="twitter"></a>
+						<a href="http://www.google.com/" target="_blank" class="googleplus"></a>
+					</div>
+				</div>
+
+				<p>
+					©2022 by KYOUNGYOON All Rights Reserved.
+				</p>
+		</footer>
+		</div>
+	</div>
+</body>
+
+</html>

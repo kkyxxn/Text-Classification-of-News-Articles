@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta authors="조경윤">
+	<title>회원가입</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+
+<p></p>
+
+							<fieldset id="signupform">
+										<legend>회원가입</legend>
+
+										<label>성별: </label>
+										<input type="radio" id="male" name="gender" value="male">
+										<label for="male"> 남성</label>
+										<input type="radio" id="female" name="gender" value="female">
+										<label for="female"> 여성</label>
+
+										<p><label>생년월일: <input type="date"></label></p>
+									
+												<p><label>휴대전화</label>
+													<select id="telCode" name="telCode">
+																	<option value="010">010</option>
+																	<option value="011">011</option>
+																	<option value="016">016</option>
+															</select> -
+													<input type="tel" name="telNum" placeholder="1234-5678" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}">
+												</p>
+												<form>
+  ID : <input id='userid' type='text'/><br>
+  비밀번호 : <input id='pwd' type='password'/>
+</form>
+												<p><label>이메일: <input type="email" name="email"
+														 pattern="[a-zA-Z0-9]+[@][a-zA-Z0-9]+[.]+[a-zA-Z]+[.]*[a-zA-Z]*" title="이메일 양식" placeholder="abcd@gmail.com"></label></p>
+
+												<fieldset>
+													<legend>이메일 정보수신</legend>
+													<input type="radio" name="receiveMail" value="true" checked><label>수신함</label>
+													<input type="radio" name="receiveMail" value="false"><label>수신하지않음</label>
+												</fieldset>
+									</fieldset>
+
+									<br>
+									<button id="button1" onclick="button1_click();">가입하기</button>
+		
+												<!-- <button id="button1" type="submit"><a href="index.html">가입하기</a></button> -->
+												<script>
+													function button1_click() {
+														alert("가입이 완료되었습니다.");
+														window.location.replace("index.html");
+
+													}
+													</script>
+
+									<!-- <button id="button1" onclick="button1_click();">가입하기</button>		
+									 -->
+									
+									<button id="button2" onclick="test()">재작성</button>
+  
+<script>
+    function test() {
+        if (!confirm("재작성 하시겠습니까?")) {
+            alert("취소(아니오)를 누르셨습니다.");
+        } else {
+            window.location.reload()
+			
+			// alert("확인(예)을 누르셨습니다.");
+        }
+    }
+</script>
+												<!-- <button type="reset"><a href="index.html">재작성</a></button> -->
+												
+
+											</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+				</article>
+		</div>
+
+<footer>
+		<div id="footer">
+			<div>
+				<ul class="navigation">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="politics_economy.html">정치/경제</a>
+					</li>
+					<li>
+						<a href="society.html">사회</a>
+					</li>
+					<li>
+						<a href="life_culture.html">생활/문화</a>
+					</li>
+					<li>
+						<a href="it_science.html">IT/과학</a>
+					</li>
+					<li>
+						<a href="sports.html">스포츠</a>
+					</li>
+					<li>
+						<a href="notice.html">소개</a>
+					</li>
+				</ul>
+				<div id="connect">
+					<a href="http://www.facebook.com/" target="_blank" class="facebook"></a>
+					<a href="http://www.twitter.com/" target="_blank" class="twitter"></a>
+					<a href="http://www.google.com/" target="_blank" class="googleplus"></a>
+				</div>
+			</div>
+
+				<p>
+					©2022 by KYOUNGYOON All Rights Reserved.
+				</p>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>
