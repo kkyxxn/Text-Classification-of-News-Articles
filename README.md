@@ -1,1 +1,1 @@
-# Text-Classification-of-News-Articles
+# AI 기반 뉴스 카테고리 분류 솔루션
